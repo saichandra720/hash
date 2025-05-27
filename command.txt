@@ -1,0 +1,4 @@
+hashcat -m 2500 handshake.cap -a 3 --opencl-device-types 1 ?h?h?h?h?h?d?d?d?d?h?h?h?h?h?h
+hashcat.exe -a 3 -m 22000 79dc.hc22000 -d 1 --force ?h?h?h?h?h?d?d?d?d?h?h?h?h?h?h
+hashcat.exe -m 22000 -a 1 79dc.hc22000 words5+digits4.txt words6.txt --force -w 4 -O --gpu-temp-retain=75
+hashcat.exe -m 22000 -a 1 79dc.hc22000 words5+digits4.txt words6.txt --force -w 4 -O -S -d 1
